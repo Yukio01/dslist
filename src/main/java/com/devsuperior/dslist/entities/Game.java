@@ -25,6 +25,8 @@ public class Game {
     private Double score;
     private String imgUrl;
     private String shortDescription;
+
+    @Column(columnDefinition = "TEXT") // Para suportar textos longos
     private String longDescription;
 
     public Game() {
